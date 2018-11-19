@@ -13,7 +13,11 @@
         <item name="android:textSize">25sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/primaryTextColor</item>
-        <item name="android:gravity">left</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ContactUs">
+        <item name="android:textSize">25sp</item>
     </style>
 
 </resources>

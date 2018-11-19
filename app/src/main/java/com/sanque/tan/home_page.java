@@ -11,12 +11,13 @@ public class home_page extends AppCompatActivity {
     public Button fever;
     public Button asthma;
     public Button ulcer;
+    public Button nav;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
-        cough = (Button) findViewById(R.id.button2);
+        cough = (Button) findViewById(R.id.button15);
         cough.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,7 +25,7 @@ public class home_page extends AppCompatActivity {
             }
         });
 
-        fever = (Button) findViewById(R.id.button3);
+        fever = (Button) findViewById(R.id.button16);
         fever.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +33,7 @@ public class home_page extends AppCompatActivity {
             }
         });
 
-        asthma = (Button) findViewById(R.id.button4);
+        asthma = (Button) findViewById(R.id.button18);
         asthma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,11 +41,19 @@ public class home_page extends AppCompatActivity {
             }
         });
 
-        ulcer = (Button) findViewById(R.id.button5);
+        ulcer = (Button) findViewById(R.id.button19);
         ulcer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openUlcer();
+            }
+        });
+
+        nav = (Button) findViewById(R.id.button10);
+        nav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNav();
             }
         });
     }
@@ -66,6 +75,11 @@ public class home_page extends AppCompatActivity {
 
     public void openUlcer() {
         Intent intent = new Intent (this, ulcer.class);
+        startActivity(intent);
+    }
+
+    public void openNav() {
+        Intent intent = new Intent (this, navbar.class);
         startActivity(intent);
     }
 }

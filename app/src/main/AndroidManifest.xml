@@ -22,7 +22,10 @@
             android:label="@string/title_activity_cough" />
         <activity android:name=".fever" />
         <activity android:name=".ulcer" />
-        <activity android:name=".asthma"></activity>
+        <activity android:name=".asthma" />
+        <activity android:name=".navbar" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".contactus"></activity>
     </application>
 
 </manifest>
