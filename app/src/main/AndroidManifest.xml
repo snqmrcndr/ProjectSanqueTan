@@ -25,7 +25,23 @@
         <activity android:name=".asthma" />
         <activity android:name=".navbar" />
         <activity android:name=".aboutus" />
-        <activity android:name=".contactus"></activity>
+        <activity android:name=".contactus" />
+        <activity android:name=".cold" />
+        <activity android:name=".measles" />
+        <activity android:name=".arthritis" />
+        <activity android:name=".chickenpox" />
+        <activity android:name=".dehydration" />
+        <activity android:name=".diabetes" />
+        <activity android:name=".diarrhoea" />
+        <activity android:name=".dysmenorrhea" />
+        <activity android:name=".legcramps" />
+        <activity android:name=".migraine" />
+        <activity android:name=".mumps" />
+        <activity android:name=".nosebleed" />
+        <activity android:name=".sorethroat" />
+        <activity android:name=".tummyache" />
+        <activity android:name=".stroke" />
+        <activity android:name=".uti"></activity>
     </application>
 
 </manifest>
